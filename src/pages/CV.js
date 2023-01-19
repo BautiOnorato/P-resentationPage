@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../styles/CVStyles.css'
+import '../styles/CVStyles.css'
 import Button from '@mui/material/Button';
 import DownloadIcon from '@mui/icons-material/Download';
 

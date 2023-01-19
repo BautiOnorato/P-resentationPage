@@ -1,0 +1,29 @@
+.container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-container button, .left-container a {
+    width: 60%;
+}
+
+.right-container {
+    background-color: black;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+
+.container {
+    height: 90vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.user {
+    padding: 10px 0;
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.user-info {
+    color: white;
+    display: flex;
+    width: 60%;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}
+
+.repos {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+} 

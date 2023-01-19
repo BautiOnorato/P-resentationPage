@@ -61,7 +61,7 @@ function DrawerAppBar(props) {
     <Box sx={{ display: 'flex', height: "10vh" }}>
       <CssBaseline />
       <AppBar component="nav" style={{ backgroundColor: "#fff" }}>
-        <Toolbar>
+        <Toolbar sx={{ padding: "15px 0" }}>
           <IconButton
             color="inherit"
             aria-label="open drawer"

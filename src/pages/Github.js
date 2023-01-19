@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import RepoCard from '../components/RepoCard';
-// import '../styles/githubStyles.css'
+import '../styles/githubStyles.css'
 
 const Github = () => {
 

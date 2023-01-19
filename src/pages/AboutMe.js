@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, IconButton, Tooltip } from '@mui/material'
 import { contact } from '../navigation/Routes'
-// import '../styles/aboutMeStyles.css'
+import '../styles/aboutMeStyles.css'
 
 const AboutMe = () => {
   return (

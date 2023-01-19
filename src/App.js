@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <DrawerAppBar/>
-      <Home/>
+      <Github/>
     </div>
   );
 }
