@@ -61,7 +61,7 @@ function DrawerAppBar(props) {
     <Box sx={{ display: 'flex', height: "10vh" }}>
       <CssBaseline />
       <AppBar component="nav" style={{ backgroundColor: "#fff" }}>
-        <Toolbar sx={{ padding: "15px 0" }}>
+        <Toolbar>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -79,9 +79,9 @@ function DrawerAppBar(props) {
               >
               My Presentaion Page
             </Typography>
-            <Box sx={{ display: { xs: 'none', sm: 'flex' }, justifyContent: "space-between", width: "40%" }}>
+            <Box sx={{ display: { xs: 'none', sm: 'flex' }, justifyContent: "space-between", width: "40%", height: "10vh"}}>
               {routes.map(({id, titleEn, path}) => (
-                <Button key={id} sx={{ color: '#000', width: "120px" }}>
+                <Button key={id} sx={{ color: '#000', width: "180px",  borderRadius: "0", "&:hover": {backgroundColor: "black", color: "white"} }}>
                   {titleEn}
                 </Button>
               ))}

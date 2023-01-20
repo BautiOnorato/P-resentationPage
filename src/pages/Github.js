@@ -22,7 +22,7 @@ const Github = () => {
   }, [])
 
   return (
-    <div className='container'>
+    <div className='container-github'>
       <div className='user'>
         <img src={userData.avatar_url}/>
         <div className='user-info'>

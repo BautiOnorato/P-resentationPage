@@ -5,7 +5,7 @@ import DownloadIcon from '@mui/icons-material/Download';
 
 const CV = () => {
   return (
-    <div className='container'>
+    <div className='container-cv'>
       <div className='left-container'>
         <Button variant="outlined" href="#outlined-buttons" 
         sx={{ borderColor: "black", color: "black", "&:hover": {backgroundColor: "black", color: "white", borderColor: "white"}}}>
